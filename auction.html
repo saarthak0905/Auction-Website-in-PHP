@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auction Item</title>
+</head>
+<body>
+  <h1><u><center>WELCOME TO AUCTIONS 101</center></u></h1><br>
+  <h2><center>ENTER DETAILS OF THE ITEM YOU WANT TO AUCTION</center></h2><br>
+
+<div style="margin: auto; width: 30%; border: solid 2px black; padding: 10px;">
+  <form action="auction.php" method="post">
+    <label for="item">Enter Name of Item:</label>
+    <input type="text" name="item" id="item" placeholder="Item Name"><br><br>
+    <label for="desc">Enter Item Description:</label>
+    <input type="text" name="desc" id="desc" placeholder="Description"><br><br>
+    <label for="amount">Enter Starting Amount (in Rs.):</label>
+    <input type="number" name="amount" id="amount" placeholder="Amount"><br><br>
+    <label for="close">Enter Bid Closing Date:</label>
+    <input type="date" name="close" id="close">   <br><br>
+    <input type="submit" value="AUCTION" name="submit" id="submit" style="margin-left: 250px;"><br><br>
+    <a href="homepage.php">Back to main menu</a>
+  </form>
+</div>

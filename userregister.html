@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup form</title>
+</head>
+<body>
+  <h1><u><center>WELCOME TO AUCTIONS 101</center></u></h1><br>
+  <h2><center>ENTER USER DETAILS TO SIGNUP</center></h2><br>
+
+<div style="margin: auto; width: 30%; border: solid 2px black; padding: 10px;">
+  <form action="signup.php" method="post">
+    <label for="user">Enter Username:(unique) </label>
+    <input type="text" name="user" id="user" placeholder="alphanumeric characters only"><br><br>
+    <label for="pwd">Enter Password: </label>
+    <input type="password" name="pwd" id="pwd"><br><br>
+    <label for="rpwd">Re-enter Password: </label>
+    <input type="password" name="rpwd" id="rpwd"><br><br>
+    <label for="phone">Enter Phone Number: </label>
+    <input type="tel" name="phone" id="phone"><br><br>
+    <input type="submit" value="SUBMIT" name="submit" id="submit"><br>
+    Already a user? <a href="userlogin.html">Login Here</a>
+  </form>
+</div>
