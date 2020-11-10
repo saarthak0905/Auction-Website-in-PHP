@@ -5,7 +5,7 @@ session_start();
 if(isset($_POST['user']))
 {
   $username = $_POST['user'];
-  $password = $_POST['pwd'];
+  $password = md5($_POST['pwd']);
 
   
   if (preg_match('/[\'^£$%&*()}{@#~?><>,|=_+¬-]/', $username))
